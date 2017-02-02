@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android. com/apk/res-auto"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_car"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.justine.auxilium.activity_add_car">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText12"
+        android:layout_alignBaseline="@+id/textView26"
+        android:layout_alignBottom="@+id/textView26"
+        android:layout_toEndOf="@+id/textView25"
+        android:hint="Text" />
+
+    <TextView
+        android:text="Manufactuer Year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView27"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignBaseline="@+id/editText13"
+        android:layout_alignBottom="@+id/editText13"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Fuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText14"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView29"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:text="Reg.No."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="nter"
+        android:id="@+id/textView26"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_below="@+id/imageButton9"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView29"
+        android:layout_toEndOf="@+id/textView25"
+        android:id="@+id/spinner6"
+        android:entries="@array/Fuel"
+        android:prompt="@string/Fuel_in"/>
+
+    <TextView
+        android:text="Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner6"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView30"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignEnd="@+id/textView26" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText15"
+        android:layout_alignBaseline="@+id/textView30"
+        android:layout_alignBottom="@+id/textView30"
+        android:layout_alignStart="@+id/editText14"
+        android:hint="Text"/>
+
+    <TextView
+        android:text="Add Car Details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignBottom="@+id/imageButton12"
+        android:layout_toEndOf="@+id/textView26" />
+
+    <TextView
+        android:text="Name of owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView31"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignBaseline="@+id/editText16"
+        android:layout_alignBottom="@+id/editText16"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView33"
+        android:layout_below="@+id/editText17"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app2:srcCompat="@drawable/me1"
+        android:layout_above="@+id/editText12"
+        android:layout_toStartOf="@+id/textView25"
+        android:id="@+id/imageButton15" />
+
+    <TextView
+        android:text="Manufactuer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView28"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/editText13"
+        android:layout_toEndOf="@+id/textView33" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText14"
+        android:layout_below="@+id/textView27"
+        android:hint="Brand"
+        android:layout_alignStart="@+id/editText13" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText13"
+        android:layout_below="@+id/editText12"
+        android:hint="Year"
+        android:layout_alignStart="@+id/editText12" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText16"
+        android:layout_below="@+id/editText15"
+        android:hint="Text"
+        android:layout_alignStart="@+id/editText15" />
+
+    <TextView
+        android:text="Mobile Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView32"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_below="@+id/editText16"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText19"
+        android:layout_alignBaseline="@+id/textView32"
+        android:layout_alignBottom="@+id/textView32"
+        android:layout_alignParentEnd="true"
+        android:hint="Enter the  no"
+        android:layout_alignStart="@+id/editText16" />
+
+    <TextView
+        android:text="Remarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText19"
+        android:layout_toEndOf="@+id/textView33"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView34"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText18"
+        android:hint="Details"
+        android:layout_alignBaseline="@+id/textView34"
+        android:layout_alignBottom="@+id/textView34"
+        android:layout_toEndOf="@+id/textView28"
+        android:layout_alignStart="@+id/editText19" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app2:srcCompat="@drawable/sav"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="13dp"
+        android:id="@+id/imageButton22" />
+
+</RelativeLayout>
