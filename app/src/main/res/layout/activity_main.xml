@@ -26,12 +26,12 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/sea"
-        android:layout_marginStart="27dp"
-        android:id="@+id/imageButton16"
+        app:srcCompat="@drawable/search"
         android:layout_centerVertical="true"
-        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/imageButton14"
+        android:layout_marginEnd="51dp"
+        android:id="@+id/imageButton21"
         android:text="next activity"
-        android:onClick="goToActivity1"/>
+        android:onClick="goToActivity2"/>
 
 </RelativeLayout>

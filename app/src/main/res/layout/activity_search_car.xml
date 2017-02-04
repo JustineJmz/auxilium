@@ -50,7 +50,8 @@
         android:layout_alignParentEnd="true"
         android:spinnerMode="dropdown"
         android:entries="@array/country_arrays"
-        android:prompt="@string/country_prompt"/>
+        android:prompt="@string/country_prompt"
+        android:layout_toEndOf="@+id/textView7" />
 
     <TextView
         android:text="Manufacturer"

@@ -22,9 +22,7 @@
         <activity android:name=".activity_car_select" />
         <activity android:name=".activity_add_car" />
         <activity android:name=".activity_land_add" />
-        <activity android:name=".activity_land_list" />
         <activity android:name=".activity_land_select" />
-        <activity android:name=".activity_listing"></activity>
     </application>
 
 </manifest>
