@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Add Car Details"
+            android:text="View Car Details"
             android:textColor="#ffffff" />
     </android.support.v7.widget.Toolbar>
 
@@ -43,8 +43,8 @@
                     android:gravity="center"
                     android:text="Model" />
 
-                <EditText
-                    android:id="@+id/editTextModelName"
+                <TextView
+                    android:id="@+id/textViewModelName"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -63,8 +63,8 @@
                     android:gravity="center"
                     android:text="Register Number" />
 
-                <EditText
-                    android:id="@+id/editTextRegisterNumber"
+                <TextView
+                    android:id="@+id/textViewRegisterNumber"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -83,8 +83,8 @@
                     android:gravity="center"
                     android:text="Color" />
 
-                <EditText
-                    android:id="@+id/editTextColor"
+                <TextView
+                    android:id="@+id/textViewColor"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -103,8 +103,8 @@
                     android:gravity="center"
                     android:text="Manufacturer Year" />
 
-                <EditText
-                    android:id="@+id/editTextManufacturerYear"
+                <TextView
+                    android:id="@+id/textViewManufacturerYear"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -123,8 +123,8 @@
                     android:gravity="center"
                     android:text="Capacity" />
 
-                <EditText
-                    android:id="@+id/editTextCapacity"
+                <TextView
+                    android:id="@+id/textViewCapacity"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -143,8 +143,8 @@
                     android:gravity="center"
                     android:text="KM Used" />
 
-                <EditText
-                    android:id="@+id/editTextKMUsed"
+                <TextView
+                    android:id="@+id/textViewKMUsed"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -163,8 +163,8 @@
                     android:gravity="center"
                     android:text="Manufacturer" />
 
-                <EditText
-                    android:id="@+id/editTextManufacturer"
+                <TextView
+                    android:id="@+id/textViewManufacturer"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -183,8 +183,8 @@
                     android:gravity="center"
                     android:text="Fuel" />
 
-                <EditText
-                    android:id="@+id/editTextFuel"
+                <TextView
+                    android:id="@+id/textViewFuel"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -203,12 +203,12 @@
                     android:gravity="center"
                     android:text="Price" />
 
-                <EditText
-                    android:id="@+id/editTextPrice"
+                <TextView
+                    android:id="@+id/textViewPrice"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:inputType="number" />
+                    android:inputType="text" />
             </LinearLayout>
 
             <LinearLayout
@@ -223,8 +223,8 @@
                     android:gravity="center"
                     android:text="Owner Name" />
 
-                <EditText
-                    android:id="@+id/editTextOwnerName"
+                <TextView
+                    android:id="@+id/textViewOwnerName"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -243,12 +243,12 @@
                     android:gravity="center"
                     android:text="Mobile Number" />
 
-                <EditText
-                    android:id="@+id/editTextMobileNumber"
+                <TextView
+                    android:id="@+id/textViewMobileNumber"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:inputType="phone" />
+                    android:inputType="text" />
             </LinearLayout>
 
             <LinearLayout
@@ -263,19 +263,41 @@
                     android:gravity="center"
                     android:text="Remarks" />
 
-                <EditText
-                    android:id="@+id/editTextRemarks"
+                <TextView
+                    android:id="@+id/textViewRemarks"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:inputType="text" />
             </LinearLayout>
 
-            <Button
-                android:id="@+id/buttonSave"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Save" />
+                android:weightSum="3">
+
+                <Button
+                    android:id="@+id/buttonDelete"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Delete" />
+
+                <Button
+                    android:id="@+id/buttonSave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Save" />
+
+                <Button
+                    android:id="@+id/buttonCall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Call" />
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

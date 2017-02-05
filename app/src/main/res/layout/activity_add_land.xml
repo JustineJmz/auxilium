@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_search_car"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.justine.auxilium.activities.SearchCarActivity">
+    tools:context="com.justine.auxilium.activities.AddLandActivity">
 
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
@@ -14,15 +14,15 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Car Search"
+            android:text="Add Land Details"
             android:textColor="#ffffff" />
     </android.support.v7.widget.Toolbar>
 
     <LinearLayout
+        android:id="@+id/LinearLayoutForm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_margin="@dimen/default_margin"
         android:orientation="vertical">
 
         <LinearLayout
@@ -34,15 +34,14 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Manufacture Year" />
+                android:gravity="center"
+                android:text="Area" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:inputType="number"
-                android:maxLength="4"
-                android:textAlignment="center" />
+                android:inputType="text" />
         </LinearLayout>
 
         <LinearLayout
@@ -54,15 +53,14 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Manufacturer" />
+                android:gravity="center"
+                android:text="Price/Cent" />
 
-            <Spinner
-                android:id="@+id/spinner3"
+            <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:entries="@array/MANUFACTURER"
-                android:prompt="@string/Manu_fact" />
+                android:inputType="text" />
         </LinearLayout>
 
         <LinearLayout
@@ -74,19 +72,14 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Price" />
+                android:gravity="center"
+                android:text="Land Mark" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".5"
-                android:inputType="number" />
-
-            <EditText
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".5"
-                android:inputType="number" />
+                android:layout_weight="1"
+                android:inputType="text" />
         </LinearLayout>
 
         <LinearLayout
@@ -98,14 +91,14 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Fuel" />
+                android:gravity="center"
+                android:text="Village" />
 
-            <Spinner
+            <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:entries="@array/Fuel"
-                android:prompt="@string/Fuel_in" />
+                android:inputType="text" />
         </LinearLayout>
 
         <LinearLayout
@@ -117,18 +110,20 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Color" />
+                android:gravity="center"
+                android:text="Remark" />
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:inputType="text" />
         </LinearLayout>
 
         <Button
-            android:id="@+id/buttonSearch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Search" />
+            android:layout_below="@id/LinearLayoutForm"
+            android:text="Save" />
     </LinearLayout>
 </RelativeLayout>
