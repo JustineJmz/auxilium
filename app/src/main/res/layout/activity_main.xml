@@ -8,7 +8,7 @@
     tools:context="com.justine.auxilium.activities.MainActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:weightSum="2">
@@ -24,9 +24,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/default_margin"
-                android:tint="@color/colorAccent"
                 android:onClick="openSearchActivity"
-                android:src="@drawable/ic_search_black_24px" />
+                android:src="@drawable/ic_search_black_24px"
+                android:tint="@color/colorAccent" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -34,7 +34,6 @@
                 android:text="Search"
                 android:textAlignment="center" />
         </LinearLayout>
-
 
         <LinearLayout
             android:layout_width="0dp"
@@ -47,10 +46,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/default_margin"
-                android:tint="@color/colorAccent"
-
                 android:onClick="openAddActivity"
-                android:src="@drawable/ic_add_box_black_24px" />
+                android:src="@drawable/ic_add_box_black_24px"
+                android:tint="@color/colorAccent" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -59,5 +57,4 @@
                 android:textAlignment="center" />
         </LinearLayout>
     </LinearLayout>
-
 </RelativeLayout>
