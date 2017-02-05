@@ -3,6 +3,7 @@
     package="com.justine.auxilium">
 
     <application
+        android:name=".AuxiliumApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,12 +17,12 @@
         </activity>
         <activity android:name="com.justine.auxilium.activities.AddCarActivity" />
         <activity android:name="com.justine.auxilium.activities.AddLandActivity" />
-        <activity android:name="com.justine.auxilium.activities.CarSelectActivity" />
-        <activity android:name="com.justine.auxilium.activities.LandSearchActivity" />
-        <activity android:name="com.justine.auxilium.activities.LandSelectActivity" />
+        <activity android:name="com.justine.auxilium.activities.DetailCarActivity" />
+        <activity android:name="com.justine.auxilium.activities.SearchLandActivity" />
+        <activity android:name="com.justine.auxilium.activities.DetailLandActivity" />
         <activity android:name="com.justine.auxilium.activities.SearchCarActivity" />
         <activity android:name="com.justine.auxilium.activities.SearchItemActivity" />
-        <activity android:name="com.justine.auxilium.activities.SelectActivity" />
+        <activity android:name="com.justine.auxilium.activities.AddItemActivity" />
 
     </application>
 

@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import com.justine.auxilium.R;
 
-public class LandSearchActivity extends AppCompatActivity {
+public class SearchLandActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -7,7 +7,7 @@ import android.view.View;
 
 import com.justine.auxilium.R;
 
-public class SelectActivity extends AppCompatActivity {
+public class AddItemActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

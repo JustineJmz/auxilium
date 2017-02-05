@@ -11,161 +11,161 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.justine.auxilium.activities.LandSelectActivity">
+    tools:context="com.justine.auxilium.activities.DetailLandActivity">
 
     <ImageButton
+        android:id="@+id/imageButton18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/trash1"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
         android:layout_marginEnd="81dp"
-        android:id="@+id/imageButton18" />
+        app:srcCompat="@drawable/trash1" />
 
     <ImageButton
+        android:id="@+id/imageButton19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/edit"
         android:layout_alignBottom="@+id/imageButton18"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="13dp"
-        android:id="@+id/imageButton19" />
+        app:srcCompat="@drawable/edit" />
 
     <TextView
-        android:text="Area"
+        android:id="@+id/textView46"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageButton18"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButton18"
         android:layout_marginStart="12dp"
         android:layout_marginTop="122dp"
-        android:id="@+id/textView46"
+        android:text="Area"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <TextView
-        android:text="Acre"
+        android:id="@+id/textView47"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView46"
-        android:layout_toStartOf="@+id/imageButton19"
         android:layout_marginEnd="48dp"
-        android:id="@+id/textView47"
+        android:layout_toStartOf="@+id/imageButton19"
+        android:text="Acre"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <TextView
-        android:text="TextView"
+        android:id="@+id/textView48"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView47"
         android:layout_alignEnd="@+id/imageButton19"
         android:layout_marginEnd="30dp"
-        android:id="@+id/textView48" />
+        android:text="TextView" />
 
     <TextView
-        android:text="Cent"
+        android:id="@+id/textView49"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
         android:layout_alignStart="@+id/textView47"
-        android:id="@+id/textView49"
+        android:layout_centerVertical="true"
+        android:text="Cent"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <TextView
-        android:text="TextView"
+        android:id="@+id/textView50"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView49"
         android:layout_toEndOf="@+id/textView47"
-        android:id="@+id/textView50" />
+        android:text="TextView" />
 
     <TextView
-        android:text="Price"
+        android:id="@+id/textView55"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView49"
         android:layout_alignStart="@+id/textView46"
+        android:layout_below="@+id/textView49"
         android:layout_marginTop="30dp"
-        android:id="@+id/textView55"
+        android:text="Price"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <TextView
-        android:text="TextView"
+        android:id="@+id/textView56"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView55"
         android:layout_toStartOf="@+id/textView48"
-        android:id="@+id/textView56" />
+        android:text="TextView" />
 
     <TextView
-        android:text="Village"
+        android:id="@+id/textView57"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView55"
         android:layout_alignStart="@+id/textView55"
+        android:layout_below="@+id/textView55"
         android:layout_marginTop="28dp"
-        android:id="@+id/textView57"
+        android:text="Village"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <TextView
-        android:text="TextView"
+        android:id="@+id/textView58"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView57"
         android:layout_alignEnd="@+id/textView56"
-        android:id="@+id/textView58" />
+        android:text="TextView" />
 
     <TextView
-        android:text="Landmark"
+        android:id="@+id/textView59"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView57"
         android:layout_marginTop="23dp"
-        android:id="@+id/textView59"
+        android:text="Landmark"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <TextView
-        android:text="TextView"
+        android:id="@+id/textView60"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView60"
         android:layout_alignBaseline="@+id/textView59"
         android:layout_alignBottom="@+id/textView59"
-        android:layout_alignStart="@+id/imageButton18" />
+        android:layout_alignStart="@+id/imageButton18"
+        android:text="TextView" />
 
     <TextView
-        android:text="Name"
+        android:id="@+id/textView61"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView59"
         android:layout_alignStart="@+id/textView57"
+        android:layout_below="@+id/textView59"
         android:layout_marginTop="18dp"
-        android:id="@+id/textView61"
+        android:text="Name"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <TextView
-        android:text="TextView"
+        android:id="@+id/textView62"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView61"
         android:layout_alignEnd="@+id/textView60"
-        android:id="@+id/textView62" />
+        android:layout_alignTop="@+id/textView61"
+        android:text="TextView" />
 
     <TextView
-        android:text="Mobile no"
+        android:id="@+id/textView64"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView61"
         android:layout_marginTop="20dp"
-        android:id="@+id/textView64"
+        android:text="Mobile no"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <TextView
-        android:text="TextView"
+        android:id="@+id/textView65"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView64"
         android:layout_alignStart="@+id/textView58"
-        android:id="@+id/textView65"
-        android:layout_alignTop="@+id/textView64" />
+        android:layout_alignTop="@+id/textView64"
+        android:text="TextView" />
 
 </RelativeLayout>

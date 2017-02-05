@@ -1,13 +1,12 @@
 package com.justine.auxilium.activities;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 import com.justine.auxilium.R;
 
-public class SearchItemActivity extends AppCompatActivity {
+public class SearchItemActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +18,7 @@ public class SearchItemActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void goToActivity6(View view){
-        Intent intent = new Intent (this, LandSearchActivity.class);
+        Intent intent = new Intent (this, SearchLandActivity.class);
         startActivity(intent);
     }
 

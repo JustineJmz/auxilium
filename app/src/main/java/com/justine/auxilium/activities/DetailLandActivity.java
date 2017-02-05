@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.justine.auxilium.R;
 
-public class CarSelectActivity extends AppCompatActivity {
+public class DetailLandActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_car);
+        setContentView(R.layout.activity_detail_land);
     }
 }
