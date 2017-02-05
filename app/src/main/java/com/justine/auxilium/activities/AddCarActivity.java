@@ -1,9 +1,11 @@
-package com.example.justine.auxilium;
+package com.justine.auxilium.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class activity_add_car extends AppCompatActivity {
+import com.example.justine.auxilium.R;
+
+public class AddCarActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

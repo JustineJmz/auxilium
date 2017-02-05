@@ -1,11 +1,15 @@
-package com.example.justine.auxilium;
+package com.justine.auxilium.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class select_add extends AppCompatActivity {
+import com.example.justine.auxilium.R;
+import com.example.justine.auxilium.activities.AddCarActivity;
+import com.example.justine.auxilium.activities.AddLandActivity;
+
+public class SelectActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,11 +18,11 @@ public class select_add extends AppCompatActivity {
     }
 
     public void goToActivity3 (View view){
-        Intent intent = new Intent (this, activity_add_car.class);
+        Intent intent = new Intent (this, AddCarActivity.class);
         startActivity(intent);
     }
     public void goToActivity4 (View view){
-        Intent intent = new Intent (this, activity_land_add.class);
+        Intent intent = new Intent (this, AddLandActivity.class);
         startActivity(intent);
     }
 

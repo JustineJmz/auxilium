@@ -1,13 +1,15 @@
-package com.example.justine.auxilium;
+package com.justine.auxilium.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class activity_car_select extends AppCompatActivity {
+import com.example.justine.auxilium.R;
+
+public class LandSearchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_car_select);
+        setContentView(R.layout.activity_landsearch);
     }
 }

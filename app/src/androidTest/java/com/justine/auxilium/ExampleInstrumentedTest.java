@@ -1,4 +1,4 @@
-package com.example.justine.auxilium;
+package com.justine.auxilium;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

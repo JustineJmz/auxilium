@@ -8,21 +8,22 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.justine.auxilium.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".select_add" />
-        <activity android:name=".search_item" />
-        <activity android:name=".search_car" />
-        <activity android:name=".activity_landsearch" />
-        <activity android:name=".activity_car_select" />
-        <activity android:name=".activity_add_car" />
-        <activity android:name=".activity_land_add" />
-        <activity android:name=".activity_land_select" />
+        <activity android:name="com.justine.auxilium.activities.AddCarActivity" />
+        <activity android:name="com.justine.auxilium.activities.AddLandActivity" />
+        <activity android:name="com.justine.auxilium.activities.CarSelectActivity" />
+        <activity android:name="com.justine.auxilium.activities.LandSearchActivity" />
+        <activity android:name="com.justine.auxilium.activities.LandSelectActivity" />
+        <activity android:name="com.justine.auxilium.activities.SearchCarActivity" />
+        <activity android:name="com.justine.auxilium.activities.SearchItemActivity" />
+        <activity android:name="com.justine.auxilium.activities.SelectActivity" />
+
     </application>
 
 </manifest>
