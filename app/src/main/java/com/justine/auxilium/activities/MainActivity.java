@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         imSave=(ImageButton)findViewById(R.id.imSave);
         spFuel=(Spinner)findViewById(R.id.spFuel);
         db=openOrCreateDatabase("StudentDB", Context.MODE_PRIVATE, null);
-        db.execSQL("CREATE TABLE IF NOT EXISTS student(ID int,Reg_no VARCHAR,Year VARCHAR,Manufaturer VARCHAR,Model VARCHAR,Price  VARCHAR,Colour  VARCHAR,Capacity  VARCHAR,K/m_used  VARCHAR,Name_owner  VARCHAR,Mobile_no  VARCHAR,CC  VARCHAR,Photo  VARCHAR,Fuel  VARCHAR,Remarks  VARCHAR,status  VARCHAR,Sale_info  VARCHAR);");
+        db.execSQL("CREATE TABLE IF NOT EXISTS student(ID int,Reg_no VARCHAR,Year VARCHAR,Manufaturer VARCHAR,Model VARCHAR,Price  VARCHAR,Colour  VARCHAR,Capacity  VARCHAR,Km_used  VARCHAR,Name_owner  VARCHAR,Mobile_no  VARCHAR,CC  VARCHAR,Photo  VARCHAR,Fuel  VARCHAR,Remarks  VARCHAR,status  VARCHAR,Sale_info  VARCHAR);");
     }
     public void goToActivity2 (View view){
         Intent intent = new Intent (this, SearchItemActivity.class);
