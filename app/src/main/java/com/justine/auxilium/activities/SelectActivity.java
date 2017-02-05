@@ -5,14 +5,14 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.example.justine.auxilium.R;
+import com.justine.auxilium.R;
 
 public class SelectActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_select_add);
+        setContentView(R.layout.activity_add_item);
     }
 
     public void goToActivity3 (View view){

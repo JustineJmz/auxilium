@@ -2,36 +2,62 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/relativeLayoutMain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.justine.auxilium.activities.MainActivity">
 
-
-    <ImageButton
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/adddsss"
-        android:layout_marginEnd="46dp"
-        android:id="@+id/imageButton14"
-        android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true"
-        android:text="next activity"
-        android:onClick="goToActivity2"/>
+        android:layout_centerInParent="true"
+        android:weightSum="2">
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/search"
-        android:layout_centerVertical="true"
-        android:layout_toStartOf="@+id/imageButton14"
-        android:layout_marginEnd="51dp"
-        android:id="@+id/imageButton21"
-        android:text="next activity"
-        android:onClick="goToActivity2"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageButtonAddItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:tint="@color/colorAccent"
+                android:onClick="openSearchActivity"
+                android:src="@drawable/ic_search_black_24px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageButton21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:tint="@color/colorAccent"
+
+                android:onClick="openAddActivity"
+                android:src="@drawable/ic_add_box_black_24px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
 
 </RelativeLayout>
